@@ -35,5 +35,5 @@ The trained traffic light and crosswalk detection models were evaluated using th
 - **Epochs**: The models were trained for 45000 epochs.
 - **mAP@50%**: The mean Average Precision (mAP) was calculated at the intersection over union (IoU) threshold of 50%.
 
-The average mAP across different classes for the trained models is 55,50%. The mAP is a metric that measures the accuracy of object detection models.
+The average mAP across different intersection over union for the trained models is 55,50%. The mAP is a metric that measures the accuracy of object detection models.
 

@@ -11,7 +11,7 @@ Make sure you have the following dependencies installed:
  
 
 ## Dataset Information
-The dataset used for training and testing traffic lights and crosswalks detection model consists of 3,552 images.
+The dataset used for training and testing traffic lights and crosswalks detection model consists of 3,698 images.
 
 | Class                  	| Count 	|
 |------------------------	|-------	|
@@ -19,6 +19,7 @@ The dataset used for training and testing traffic lights and crosswalks detectio
 | Traffic Light (Green)  	| 1138  	|
 | Traffic Light (Yellow) 	| 827   	|
 | Crosswalk              	| 1266  	|
+| Null Examples            	| 146  	    |
 
 [Download](https://universe.roboflow.com/shipdataset/blind-cross-street-helper)
 
@@ -27,7 +28,7 @@ The trained traffic light and crosswalk detection models were evaluated using th
 
 | Model        | Batch Size | Epochs | mAP@50% |
 |--------------|------------|--------|---------|
-| ssd-mobilenet-v2-fpnlite-320 | 16          | 45000     | 87,19%    |
+| ssd-mobilenet-v2-fpnlite-320 | 16          | 45000     | 90,47%    |
 
 
 - **Model**: MobileNetv2 SSD (Single Shot MultiBox Detector) was used for object detection.
@@ -35,5 +36,5 @@ The trained traffic light and crosswalk detection models were evaluated using th
 - **Epochs**: The models were trained for 45000 epochs.
 - **mAP@50%**: The mean Average Precision (mAP) was calculated at the intersection over union (IoU) threshold of 50%.
 
-The average mAP across different intersection over union for the trained models is 55,50%. The mAP is a metric that measures the accuracy of object detection models.
+The average mAP across different intersection over union for the trained models is 59,60%. The mAP is a metric that measures the accuracy of object detection models.
 

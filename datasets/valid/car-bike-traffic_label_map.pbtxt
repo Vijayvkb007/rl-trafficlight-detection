@@ -1,0 +1,20 @@
+item {
+    name: "crosswalk",
+    id: 1,
+    display_name: "crosswalk"
+}
+item {
+    name: "green",
+    id: 2,
+    display_name: "green"
+}
+item {
+    name: "red",
+    id: 3,
+    display_name: "red"
+}
+item {
+    name: "yellow",
+    id: 4,
+    display_name: "yellow"
+}

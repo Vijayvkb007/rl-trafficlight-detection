@@ -11,7 +11,7 @@ Make sure you have the following dependencies installed:
  
 
 ## Dataset Information
-The dataset used for training and testing traffic lights and crosswalks detection model consists of 3,698 images.
+The dataset used for training and testing traffic lights and crosswalks detection model consists of 3,793 images.
 
 | Class                  	| Count 	|
 |------------------------	|-------	|
@@ -19,16 +19,18 @@ The dataset used for training and testing traffic lights and crosswalks detectio
 | Traffic Light (Green)  	| 1138  	|
 | Traffic Light (Yellow) 	| 827   	|
 | Crosswalk              	| 1266  	|
-| Null Examples            	| 146  	    |
+| Null Examples            	| 241  	    |
 
 [Download](https://universe.roboflow.com/shipdataset/blind-cross-street-helper)
+
+## 
 
 ## Model Evaluation
 The trained traffic light and crosswalk detection models were evaluated using the following configuration:
 
 | Model        | Batch Size | Epochs | mAP@50% |
 |--------------|------------|--------|---------|
-| ssd-mobilenet-v2-fpnlite-320 | 16          | 45000     | 90,47%    |
+| ssd-mobilenet-v2-fpnlite-320 | 16          | 45000     | 90,56%    |
 
 
 - **Model**: MobileNetv2 SSD (Single Shot MultiBox Detector) was used for object detection.
@@ -36,5 +38,15 @@ The trained traffic light and crosswalk detection models were evaluated using th
 - **Epochs**: The models were trained for 45000 epochs.
 - **mAP@50%**: The mean Average Precision (mAP) was calculated at the intersection over union (IoU) threshold of 50%.
 
-The average mAP across different intersection over union for the trained models is 59,60%. The mAP is a metric that measures the accuracy of object detection models.
+The average mAP across different intersection over union for the trained models is 58,82%. The mAP is a metric that measures the accuracy of object detection models.
 
+
+
+
+## Testing Result
+The following images show the result of traffic light and crosswalk detection.
+
+| Red       | Yellow    | Green    | Crosswalk    |
+|-----------|-----------|----------|--------------|
+| ![Red1](result/lampu%20merah%20(1).png)| ![Yellow1](result/lampu%20kuning%20(1).png)| ![Green1](result/lampu%20hijau%20(1).png)| ![Crosswalk1](result/crosswalk%20(1).png)|
+| ![Red1](result/lampu%20merah%20(2).png)| ![Yellow1](result/lampu%20kuning%20(2).png)| ![Green1](result/lampu%20hijau%20(2).png)| ![Crosswalk1](result/crosswalk%20(2).png)|

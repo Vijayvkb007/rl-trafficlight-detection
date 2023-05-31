@@ -45,7 +45,7 @@ The average mAP across different intersection over union for the trained models 
 
 
 
-### mAP Grapgh
+### mAP Graph
 ![mAP Graph Training](result/mAP.png)
 
 

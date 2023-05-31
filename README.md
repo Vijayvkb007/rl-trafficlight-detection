@@ -40,7 +40,13 @@ The trained traffic light and crosswalk detection models were evaluated using th
 
 The average mAP across different intersection over union for the trained models is 58,82%. The mAP is a metric that measures the accuracy of object detection models.
 
+### Loss Graph
+![Loss Graph Training](result/loss%20function.png)
 
+
+
+### mAP Grapgh
+![mAP Graph Training](result/mAP.png)
 
 
 ## Testing Result
